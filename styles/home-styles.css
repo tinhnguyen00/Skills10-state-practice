@@ -1,6 +1,5 @@
 body {
   margin: 0;
-  background-color: aquamarine;
 }
 
 main {
@@ -8,7 +7,14 @@ main {
   margin-left: 250px;
 }
 
-html > body > main > #first-banner {
+section {
+  border-top: 15px solid white;
+  box-sizing: border-box;
+  height: 400px;
+  color: white;
+}
+
+html>body>main>#first-banner {
   background-color: red;
   height: 600px;
   background-image: url(../images/elevateBG.jpg);
@@ -17,3 +23,42 @@ html > body > main > #first-banner {
   background-position: fixed;
 }
 
+.image-wrapper {
+  height: 100%;
+  width: 40%;
+  box-sizing: border-box;
+}
+
+#second-banner .image-wrapper {
+  background-image: url(../images/shed1.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  border-left: 15px solid white;
+}
+
+#third-banner .image-wrapper {
+  background-image: url(../images/shed2.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  border-right: 15px solid white;
+}
+
+.text-wrapper {
+  height: 100%;
+  width: 60%;
+  font-size: 2em;
+  background-color: rgb(0, 77, 179);
+  text-align: center;
+}
+
+.text-wrapper p {
+  margin-top: 50px;
+  text-transform: capitalize;
+}
+
+#second-banner,
+#third-banner {
+  display: flex;
+}
