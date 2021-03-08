@@ -1,0 +1,29 @@
+#header-banner {
+  height: 600px;
+  border-top: none;
+  background: url(../images/elevateBG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 200px;
+}
+
+#colors {
+  height: 600px;
+}
+
+.color-image {
+  height: 100%;
+  width: 100%;
+  background-image: url(../images/colors.webp);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 77, 179);
+  font-size: 3em;
+  margin: 0;
+  margin-bottom: 20px;
+}

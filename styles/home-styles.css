@@ -2,7 +2,6 @@ body {
   margin: 0;
   background-color: aliceblue;
   font-family: sans-serif;
-
 }
 
 main {
@@ -25,9 +24,13 @@ html>body>main>#first-banner {
   background-size: 100%;
   display: flex;
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  border-top: none;
 }
 
 .image-wrapper {
@@ -40,7 +43,7 @@ html>body>main>#first-banner {
   background-image: url(../images/shed1.webp);
   background-position: center;
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   border-left: 15px solid white;
 }
 
@@ -48,7 +51,7 @@ html>body>main>#first-banner {
   background-image: url(../images/shed2.webp);
   background-position: center;
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   border-right: 15px solid white;
 }
 
