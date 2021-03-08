@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: aquamarine;
+  background-color: aliceblue;
   font-family: sans-serif;
 }
 
@@ -20,8 +20,4 @@ html > body > main > #first-banner {
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
-}
-
-#third-banner {
-  height: 1000px;
 }
