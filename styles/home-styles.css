@@ -7,3 +7,13 @@ main {
   /* space for nav */
   margin-left: 250px;
 }
+
+html > body > main > #first-banner {
+  background-color: red;
+  height: 600px;
+  background-image: url(../images/elevateBG.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: fixed;
+}
+
