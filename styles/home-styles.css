@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  background-color: aliceblue;
+  font-family: sans-serif;
+
 }
 
 main {
@@ -17,10 +20,14 @@ section {
 html>body>main>#first-banner {
   background-color: red;
   height: 600px;
-  background-image: url(../images/elevateBG.jpg);
+  background-image: url(../images/creamcarport.webp);
   width: 100%;
-  background-size: cover;
-  background-position: fixed;
+  background-size: 100%;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .image-wrapper {
