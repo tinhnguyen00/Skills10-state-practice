@@ -1,7 +1,7 @@
 body {
-  margin: 0;
+  margin          : 0;
   background-color: aliceblue;
-  font-family: sans-serif;
+  font-family     : "Open Sans";
 
 }
 
@@ -13,55 +13,57 @@ main {
 section {
   border-top: 15px solid white;
   box-sizing: border-box;
-  height: 400px;
-  color: white;
+  height    : 400px;
+  color     : white;
 }
 
 html>body>main>#first-banner {
-  background-color: red;
-  height: 600px;
-  background-image: url(../images/creamcarport.webp);
-  width: 100%;
-  background-size: 100%;
-  display: flex;
+
+  background-color     : red;
+  height               : 600px;
+  background-image     : url(../images/creamcarport.webp);
+  width                : 100%;
+  background-size      : 100%;
+  display              : flex;
   background-attachment: fixed;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
+  justify-content      : center;
+  align-items          : center;
+  border: 0px;
+  box-sizing           : border-box;
 }
 
 .image-wrapper {
-  height: 100%;
-  width: 40%;
+  height    : 100%;
+  width     : 40%;
   box-sizing: border-box;
 }
 
 #second-banner .image-wrapper {
-  background-image: url(../images/shed1.webp);
+  background-image   : url(../images/shed1.webp);
   background-position: center;
-  background-size: cover;
-  background-repeat: none;
-  border-left: 15px solid white;
+  background-size    : cover;
+  background-repeat  : none;
+  border-left        : 15px solid white;
 }
 
 #third-banner .image-wrapper {
-  background-image: url(../images/shed2.webp);
+  background-image   : url(../images/shed2.webp);
   background-position: center;
-  background-size: cover;
-  background-repeat: none;
-  border-right: 15px solid white;
+  background-size    : cover;
+  background-repeat  : none;
+  border-right       : 15px solid white;
 }
 
 .text-wrapper {
-  height: 100%;
-  width: 60%;
-  font-size: 2em;
+  height          : 100%;
+  width           : 60%;
+  font-size       : 2em;
   background-color: rgb(0, 77, 179);
-  text-align: center;
+  text-align      : center;
 }
 
 .text-wrapper p {
-  margin-top: 50px;
+  margin-top    : 50px;
   text-transform: capitalize;
 }
 
