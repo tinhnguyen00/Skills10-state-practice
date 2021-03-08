@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: aquamarine;
+  font-family: sans-serif;
 }
 
 main {
@@ -11,9 +12,16 @@ main {
 html > body > main > #first-banner {
   background-color: red;
   height: 600px;
-  background-image: url(../images/elevateBG.jpg);
+  background-image: url(../images/creamcarport.webp);
   width: 100%;
-  background-size: cover;
-  background-position: fixed;
+  background-size: 100%;
+  display: flex;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
+#third-banner {
+  height: 1000px;
+}
