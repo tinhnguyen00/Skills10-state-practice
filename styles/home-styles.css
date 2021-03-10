@@ -2,7 +2,6 @@ body {
   margin          : 0;
   background-color: aliceblue;
   font-family     : "Open Sans";
-
 }
 
 main {
@@ -30,6 +29,13 @@ html>body>main>#first-banner {
   align-items          : center;
   border: 0px;
   box-sizing           : border-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-top: none;
 }
 
 .image-wrapper {
@@ -44,6 +50,7 @@ html>body>main>#first-banner {
   background-size    : cover;
   background-repeat  : none;
   border-left        : 15px solid white;
+
 }
 
 #third-banner .image-wrapper {
