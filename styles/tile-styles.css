@@ -1,0 +1,8 @@
+.tile {
+  height: 300px;
+  width: 300px;
+  position: relative;
+  border: white solid 15px;
+  box-sizing: border-box;
+  background-color: orange;
+}
